@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Scroller Game</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222;
+            overflow: hidden;
+        }
+        canvas {
+            border: 1px solid #fff;
+        }
+        h1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            font-size: 2rem;
+            margin: 1rem;
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mysterious Journey</h1>
+    <canvas id="gameCanvas"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
